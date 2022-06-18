@@ -1,0 +1,63 @@
+section.stories .company-name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+section.stories .company-logo {
+  display: block;
+  margin: auto;
+  height: 100px;
+}
+section.stories .story-image {
+  width: 38% !important;
+  display: block;
+  margin: auto;
+}
+section.stories .story-nav {
+  height: 40px;
+}
+section.stories .company-attr {
+  position: absolute;
+  right: 26%;
+  top:  0%;
+  z-index: 999;
+}
+section.stories .company-attr img {
+  height: 22px;
+}
+section.stories .company-attr p {
+  color: black;
+}
+section.stories .company-swatch button {
+  border:  unset;
+}
+section.stories .company-swatch button img {
+  height: 40px;
+}
+section.stories .company-swatch .up {
+  position: absolute;
+  top: 0%;
+}
+section.stories .company-swatch .down {
+  position: absolute;
+  top: 475px;
+}
+#story-content {
+  overflow: scroll;
+  height: 100%;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+#story-content::-webkit-scrollbar {
+  display: none;
+}
+#story-content {
+  -ms-overflow-style: none;
+  scrollbar-width:  none;
+}
+.stry {
+  height: 85vh;
+  scroll-snap-align: start;
+  position: relative;
+}

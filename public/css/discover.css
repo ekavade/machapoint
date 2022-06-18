@@ -1,0 +1,124 @@
+.custom-icons .fa {
+    color: #fff;
+}
+.lnk {
+    border-radius: 20px;
+    background-color: #108bea;
+    margin: 5px;
+}
+.action {
+    text-align: center;
+}
+.item .products .image a {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-top: 125px;
+}
+
+
+/*Raghu CSS*/
+.pt-10 {
+    padding-top: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.stories-thumb {
+    width: 100px;
+    height: 100px;
+}
+div.fixed-header .stories-thumb {
+    width: 75px;
+    height: 75px;
+    transition: ankl linear .3s;
+}
+div.fixed-header .container-outer {
+    height: 110px !important;
+    transition: all linear .3s;
+}
+::-webkit-scrollbar {
+    height: 5px;
+}
+*:hover::-webkit-scrollbar {
+    height: 10px;
+}
+.container-inner {
+    width: max-content;
+}
+.list-unstyled li {
+    margin: 10px 5px 5px 5px;
+}
+.custom-icons {
+    background-color: #108bea !important;
+    padding-top: 3px !important;
+    border-radius: 20px !important;
+}
+
+@media (max-width:1030px) {
+	.feature-product-block {
+        display: block !important;
+    }
+
+    .outer-top-xs {
+     margin-top: 0px !important; 
+}
+div.fixed-header .stories-thumb {
+    width: 62px;
+    height: 62px;
+    transition: ankl linear .3s;
+}
+}
+@media (max-width: 479px) {
+  div.fixed-header .stories-thumb {
+    width: 62px;
+    height: 62px;
+    transition: ankl linear .3s;
+}  
+.hide-xs {
+    display: none;
+}
+.container-inner {
+    width: max-content;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   div.fixed-header .stories-thumb {
+    width: 62px;
+    height: 62px;
+    transition: ankl linear .3s;
+}
+
+.hide-xs {
+    display: none;
+}
+.container-inner {
+    width: max-content;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+   div.fixed-header .stories-thumb {
+    width: 62px;
+    height: 62px;
+    transition: ankl linear .3s;
+}
+
+.hide-xs {
+    display: none;
+}
+
+.container-inner {
+    width: max-content;
+}
+  
+}
+
